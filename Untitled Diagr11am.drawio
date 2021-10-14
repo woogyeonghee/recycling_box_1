@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T09:55:58.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="jy5c2jIRSV8UORih02Dn" version="15.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-14T09:59:00.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="JtqCYZsglsgin0bfwSop" version="15.5.0" type="github" pages="4">
   <diagram id="hzj-rkUpDkwqQ1N7eJPf" name="Page-1">
     <mxGraphModel dx="1865" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,7 +109,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Q0BkXbvhvXNopLmKdQaE" name="Page-2">
-    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vqBTN8ty6lP7vDj-ngmq-0" />
         <mxCell id="vqBTN8ty6lP7vDj-ngmq-1" parent="vqBTN8ty6lP7vDj-ngmq-0" />
@@ -173,10 +173,56 @@
           <mxGeometry x="520" y="200" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S7bcCegwFm0btir6XZN9-18" value="아두이노: 서보1 오른쪽" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vqBTN8ty6lP7vDj-ngmq-1">
-          <mxGeometry y="520" width="240" height="40" as="geometry" />
+          <mxGeometry y="680" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vqBTN8ty6lP7vDj-ngmq-1" source="S7bcCegwFm0btir6XZN9-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="S7bcCegwFm0btir6XZN9-19" value="재활용품을 올려주세요" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vqBTN8ty6lP7vDj-ngmq-1">
           <mxGeometry x="560" y="520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vqBTN8ty6lP7vDj-ngmq-1" source="ZPJEu7pH46m1lKxFJsdH-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vqBTN8ty6lP7vDj-ngmq-1" source="ZPJEu7pH46m1lKxFJsdH-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-0" value="라벨 뚜껑 확인" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vqBTN8ty6lP7vDj-ngmq-1">
+          <mxGeometry y="520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vqBTN8ty6lP7vDj-ngmq-1" source="ZPJEu7pH46m1lKxFJsdH-2" target="S7bcCegwFm0btir6XZN9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-2" value="없으면" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vqBTN8ty6lP7vDj-ngmq-1">
+          <mxGeometry y="600" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vqBTN8ty6lP7vDj-ngmq-1" source="ZPJEu7pH46m1lKxFJsdH-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-5" value="있으면" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vqBTN8ty6lP7vDj-ngmq-1">
+          <mxGeometry x="-280" y="520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vqBTN8ty6lP7vDj-ngmq-1" source="ZPJEu7pH46m1lKxFJsdH-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-7" value="재활용품을 올려주세요" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vqBTN8ty6lP7vDj-ngmq-1">
+          <mxGeometry x="-280" y="600" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-9" value="영상인식 실행 신호" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vqBTN8ty6lP7vDj-ngmq-1">
+          <mxGeometry x="-280" y="680" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPJEu7pH46m1lKxFJsdH-11" value="영상인식 실행 신호" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vqBTN8ty6lP7vDj-ngmq-1">
+          <mxGeometry x="560" y="600" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
