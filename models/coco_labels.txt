@@ -1,2 +1,0 @@
-0  pet_bottle
-1  can

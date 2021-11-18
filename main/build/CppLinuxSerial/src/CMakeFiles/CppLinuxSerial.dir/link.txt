@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCppLinuxSerial.a  CMakeFiles/CppLinuxSerial.dir/SerialPort.cpp.o
+/usr/bin/ranlib libCppLinuxSerial.a

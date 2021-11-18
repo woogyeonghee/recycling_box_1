@@ -1,0 +1,14 @@
+/home/jetson/recycle_Box/build/CMakeFiles/install/local.dir
+/home/jetson/recycle_Box/build/CMakeFiles/install.dir
+/home/jetson/recycle_Box/build/CMakeFiles/list_install_components.dir
+/home/jetson/recycle_Box/build/CMakeFiles/rebuild_cache.dir
+/home/jetson/recycle_Box/build/CMakeFiles/edit_cache.dir
+/home/jetson/recycle_Box/build/CMakeFiles/install/strip.dir
+/home/jetson/recycle_Box/build/CMakeFiles/excute.dir
+/home/jetson/recycle_Box/build/CppLinuxSerial/src/CMakeFiles/install/local.dir
+/home/jetson/recycle_Box/build/CppLinuxSerial/src/CMakeFiles/install.dir
+/home/jetson/recycle_Box/build/CppLinuxSerial/src/CMakeFiles/list_install_components.dir
+/home/jetson/recycle_Box/build/CppLinuxSerial/src/CMakeFiles/rebuild_cache.dir
+/home/jetson/recycle_Box/build/CppLinuxSerial/src/CMakeFiles/edit_cache.dir
+/home/jetson/recycle_Box/build/CppLinuxSerial/src/CMakeFiles/install/strip.dir
+/home/jetson/recycle_Box/build/CppLinuxSerial/src/CMakeFiles/CppLinuxSerial.dir
