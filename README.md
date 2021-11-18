@@ -210,6 +210,6 @@ for (auto i : contours) {
 
 6. 두 상태의 area값 비교
 
-# 코드 리뷰 (firmware)
+# 구현 원리 (센서 및 액츄에이터 제어)
 
 ![323232](https://user-images.githubusercontent.com/88933098/142371754-4fa7f6f8-f2de-46ef-8aad-51fb72a83868.JPG)
