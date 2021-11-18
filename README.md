@@ -70,7 +70,7 @@ recycling box
 
 # 동작영상
 
-<img width="80%" src="https://www.youtube.com/watch?v=o9Qvf0xHIZE&t=5s"/>
-<br/>
+(https://www.youtube.com/watch?v=o9Qvf0xHIZE&t=5s)
 
-<img width="80%" src="https://www.youtube.com/watch?v=2ykl-l5aJDE&t=9s"/>
+
+(https://www.youtube.com/watch?v=2ykl-l5aJDE&t=9s)
