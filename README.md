@@ -4,7 +4,7 @@ recycling box
 
 # 프로젝트 팀 구성원
 
-- 우경희 
+- 우경희(pm)
 
 - 조종혁
 
@@ -20,16 +20,18 @@ recycling box
 
 - jetson nano board
 
-- arduino
+- AVR칩을 탑재한 보드
 
 
 # SW 구성
 
 - project main func
 
-  - find can or bottle object : using histogram
+  - pet object : matchTemplate
 
-  - find label : masking -> componentswithstats
+  - can object : masking -> findcontour -> minAreaRect & approxPolyDP 
+
+  - find label : masking -> morphology ->labeling
 
   - define filepath : filesystem
 
@@ -42,6 +44,10 @@ recycling box
   - control servo
     
   - ultrasonic 
+  
+  - buzzer
+  
+  - neo_pixel
 
 - communitation
   
