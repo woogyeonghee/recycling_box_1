@@ -70,7 +70,4 @@ recycling box
 
 # 동작영상
 
-<iframe width="560" height="315" src="https://youtu.be/o9Qvf0xHIZE" frameborder="0" allowfullscreen></iframe>
-
-
-
+[![BTS DNA Youtube](https://img.youtube.com/vi/MBdVXkSdhwU/0.jpg)](https://www.youtube.com/watch?v=MBdVXkSdhwU)
