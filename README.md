@@ -71,4 +71,4 @@ recycling box
 # 동작영상
 
 
-{% includes 1.html id="https://www.youtube.com/embed/" %}
+{% _includes 1.html id="https://www.youtube.com/embed/" %}
