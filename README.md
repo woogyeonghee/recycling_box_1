@@ -70,8 +70,11 @@ recycling box
 
 # 동작영상
 
+구분하는 여
+[![Video Label](https://i9.ytimg.com/vi/2ykl-l5aJDE/mq2.jpg?sqp=CPy914wG&rs=AOn4CLDXHMoVdWipfiKss9ZlwRvxZ2FuOQ)](https://youtu.be/2ykl-l5aJDE)
+
 구현영상
-<iframe width="640" height="360" src="https://www.youtube.com/embed/6Az2cNU7gUw" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+[![Video Label](https://i9.ytimg.com/vi/o9Qvf0xHIZE/mq2.jpg?sqp=CLiR14wG&rs=AOn4CLDapwOsRt7ClSlYkKbxjnRKmMBPaw)](https://youtu.be/o9Qvf0xHIZE)
 
 
-{% include 1.html id="https://www.youtube.com/watch?v=o9Qvf0xHIZE&t=5s" %}
+
