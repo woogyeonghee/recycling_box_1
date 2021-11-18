@@ -70,10 +70,12 @@ recycling box
 
 # 동작영상
 
-구분하는 여
+opencv를 활용한 재활용 가능 pet,can 구분 구현 영상
+<br/>
 [![Video Label](https://i9.ytimg.com/vi/2ykl-l5aJDE/mq2.jpg?sqp=CPy914wG&rs=AOn4CLDXHMoVdWipfiKss9ZlwRvxZ2FuOQ)](https://youtu.be/2ykl-l5aJDE)
 
-구현영상
+recycling box 구현 영상
+<br/>
 [![Video Label](https://i9.ytimg.com/vi/o9Qvf0xHIZE/mq2.jpg?sqp=CLiR14wG&rs=AOn4CLDapwOsRt7ClSlYkKbxjnRKmMBPaw)](https://youtu.be/o9Qvf0xHIZE)
 
 
