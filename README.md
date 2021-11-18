@@ -22,6 +22,15 @@ recycling box
 
 - AVR칩을 탑재한 보드
 
+- 센서 및 액츄에이터
+  
+  - control servo
+    
+  - ultrasonic 
+  
+  - buzzer
+  
+  - neo_pixel
 
 # SW 구성
 
@@ -41,13 +50,13 @@ recycling box
 
 - firmware
   
-  - control servo
+  - control servo control
     
-  - ultrasonic 
+  - ultrasonic control
   
-  - buzzer
+  - buzzer control
   
-  - neo_pixel
+  - neo_pixel control
 
 - communitation
   
