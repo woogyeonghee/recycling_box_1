@@ -70,5 +70,3 @@ recycling box
 
 # 동작영상
 
-[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/o9Qvf0xHIZE/mq2.jpg?sqp=CLiR14wG&rs=AOn4CLDapwOsRt7ClSlYkKbxjnRKmMBPaw)](https://youtu.be/o9Qvf0xHIZE)
-
