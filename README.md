@@ -72,15 +72,17 @@ recycling box
 
 ### opencv를 활용한 재활용 가능 pet,can 구분 구현 영상 (이미지 클릭후 영상으로 이동)
 <br/>
+
 [![Video Label](https://i9.ytimg.com/vi/2ykl-l5aJDE/mq2.jpg?sqp=CPy914wG&rs=AOn4CLDXHMoVdWipfiKss9ZlwRvxZ2FuOQ)](https://youtu.be/2ykl-l5aJDE)
 
 ### recycling box 구현 영상 (이미지 클릭후 영상으로 이동)
 <br/>
+
 [![Video Label](https://i9.ytimg.com/vi/o9Qvf0xHIZE/mq2.jpg?sqp=CLiR14wG&rs=AOn4CLDapwOsRt7ClSlYkKbxjnRKmMBPaw)](https://youtu.be/o9Qvf0xHIZE)
 
 
-# 코드 리뷰
-### pet object : matchTemplate
+# 코드 리뷰 (main)
+## pet object : matchTemplate
 
 ![1](https://user-images.githubusercontent.com/88933098/142357606-de9da55c-f217-4e12-8ecc-d00a86a5258c.JPG)
 
@@ -99,7 +101,7 @@ if(maxvVector[0] > 0.7){
 }
  ~~~
  
- ### find label : masking -> morphology ->labeling
+ ## find label : masking -> morphology ->labeling
 ![2](https://user-images.githubusercontent.com/88933098/142357629-9b73971e-ac28-4ed7-aae2-8cadf01b4fee.JPG)
 
 
@@ -143,7 +145,7 @@ for (j = 1; j < numOfLabels; j++) {
 	}
 }
 ~~~
-### masking -> findcontour -> minAreaRect & approxPolyDP
+## masking -> findcontour -> minAreaRect & approxPolyDP
 ![3](https://user-images.githubusercontent.com/88933098/142357693-31035f8c-ff64-4e6f-b780-003b7c016580.JPG)
 
 1. 트랙바를 사용하여 upper & lower BGR 값을 찾기
