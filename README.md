@@ -16,6 +16,19 @@ recycling box
 
 - 이 recycling box의 주요 기능은 객체 인식을 통하여 분리수거가 가능한지 페트병인지, 캔인지 구분할 수 있는 기능이 있고, 부가적인 기능은 recycling box 가 꽉차있을때 fcm push 메시지를 전송하여 관리자가 확인할수 있도록 구성하였습니다. 
 
+# 개발 환경
+
+- 언어 : C/C++, javascript, java
+
+- os : ubuntu
+
+- library : Opencv, filesystem library(c++17), cpplinuxserial library, com.c
+
+- tools : vscode, android studio, vim, Cmake
+
+- framework : gstreamer, nodejs
+
+
 # HW 구성
 
 - jetson nano board
@@ -66,7 +79,7 @@ recycling box
   
 # 프로젝트 작업 과정
 
-### 소요가건 약 6주
+### 소요기간 약 6주
 
 - 프로젝트 주제 정하기
 
