@@ -105,7 +105,7 @@ recycling box
 ### recycling box 구현 영상 (이미지 클릭후 영상으로 이동)
 <br/>
 
-[![Video Label](https://user-images.githubusercontent.com/88933098/142602113-9ca68288-d54a-4ba0-ad99-75811a3cd514.png)](https://youtu.be/o9Qvf0xHIZE)
+[![Video Label](https://user-images.githubusercontent.com/88933098/142602428-0d3db418-cd50-4137-952a-ded6b2d5be21.jpg)](https://youtu.be/o9Qvf0xHIZE)
 
 
 # FLOWCHART
@@ -123,7 +123,7 @@ for(int i = 0; i < SAMPLENUM; i++){
   	matchTemplate(subImg_, matReadVector[i], resVecotr[i], TM_CCOEFF_NORMED);
 	normalize(resVecotr[i], res_normVector[i], 0, 255, NORM_MINMAX, CV_8U);
 	minMaxLoc(resVecotr[i], 0, &maxvVector[i], 0, &maxlocVector[i]);
-	}
+}
 //유사도를 비교하는 부분
 if(maxvVector[0] > 0.7){
 	serialPort1.Write("N");
@@ -207,21 +207,23 @@ for (auto i : contours) {
 		// 타원 구하는 공식 
         	area2 = he * wi * 0.5 * 0.5 * 3.14;
             	cout << area2 << endl;
+	}
 }
 ~~~
 
 5. approxPolyDP를 사용해 외곽선 근사화 및 Area 측정
 ~~~
-    for (int i = 0; i < contours.size();i++) {
-        int area = contourArea(contours[i]);
-        if (area > 11100)
-        {
-            float peri = arcLength(contours[i], true);
-            approxPolyDP(contours[i], conPoly[i], 0.01 * peri, true);
-            drawContours(src, conPoly, i, Scalar(255, 0, 0), 3);
-            cout << area << endl;
-            area3 = area;
-        }
+    	for (int i = 0; i < contours.size();i++) {
+        	int area = contourArea(contours[i]);
+        	if (area > 11100)
+        	{
+            	float peri = arcLength(contours[i], true);
+            	approxPolyDP(contours[i], conPoly[i], 0.01 * peri, true);
+            	drawContours(src, conPoly, i, Scalar(255, 0, 0), 3);
+            	cout << area << endl;
+            	area3 = area;
+        	}
+	}
 ~~~
 
 6. 두 상태의 area값 비교
