@@ -93,6 +93,7 @@ recycling box
 
 # 외관 
 
+![dwd](https://user-images.githubusercontent.com/88933098/142580963-b0937043-494c-4f16-8e1f-14169b578483.png)
 
 # 동작영상
 
