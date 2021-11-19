@@ -100,12 +100,12 @@ recycling box
 ### opencv를 활용한 재활용 가능 pet,can 구분 구현 영상 (이미지 클릭후 영상으로 이동)
 <br/>
 
-[![Video Label](https://i9.ytimg.com/vi/2ykl-l5aJDE/mq2.jpg?sqp=CPy914wG&rs=AOn4CLDXHMoVdWipfiKss9ZlwRvxZ2FuOQ)](https://youtu.be/2ykl-l5aJDE)
+[![Video Label](https://user-images.githubusercontent.com/88933098/142602186-7dcbbf48-1478-4d7e-848d-7c469a828f73.jpg)](https://youtu.be/2ykl-l5aJDE)
 
 ### recycling box 구현 영상 (이미지 클릭후 영상으로 이동)
 <br/>
 
-[![Video Label](https://i9.ytimg.com/vi/o9Qvf0xHIZE/mq2.jpg?sqp=CLiR14wG&rs=AOn4CLDapwOsRt7ClSlYkKbxjnRKmMBPaw)](https://youtu.be/o9Qvf0xHIZE)
+[![Video Label](https://user-images.githubusercontent.com/88933098/142602113-9ca68288-d54a-4ba0-ad99-75811a3cd514.png)](https://youtu.be/o9Qvf0xHIZE)
 
 
 # FLOWCHART
