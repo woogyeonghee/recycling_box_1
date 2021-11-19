@@ -108,9 +108,10 @@ recycling box
 [![Video Label](https://user-images.githubusercontent.com/88933098/142602428-0d3db418-cd50-4137-952a-ded6b2d5be21.jpg)](https://youtu.be/o9Qvf0xHIZE)
 
 
-# FLOWCHART
+# FLOWCHART(system)
 
-![111](https://user-images.githubusercontent.com/88933098/142370278-5d6623a6-462a-44fb-817d-4d55ccf55f16.png)
+![dwdwd](https://user-images.githubusercontent.com/88933098/142603105-f06b0f5e-0a40-499f-99ba-159e3b690738.png)
+
 
 # 코드 리뷰 (main)
 ## pet object : matchTemplate
@@ -227,6 +228,8 @@ for (auto i : contours) {
 ~~~
 
 6. 두 상태의 area값 비교
+
+# 
 
 # firmware (센서 및 액츄에이터 제어)
 
