@@ -118,7 +118,7 @@ recycling box
 ## FLOWCHART (main)
 ![dwdwd](https://user-images.githubusercontent.com/88933098/142608504-d6850f80-6236-4a00-b364-a8a284166467.png)
 
-## pet object : matchTemplate
+## matchTemplate
 
 ![1](https://user-images.githubusercontent.com/88933098/142357606-de9da55c-f217-4e12-8ecc-d00a86a5258c.JPG)
 
@@ -181,7 +181,7 @@ for (j = 1; j < numOfLabels; j++) {
 	}
 }
 ~~~
-## can object : masking -> findcontour -> minAreaRect & approxPolyDP
+## find ellipse : masking -> findcontour -> minAreaRect & approxPolyDP
 ![3](https://user-images.githubusercontent.com/88933098/142357693-31035f8c-ff64-4e6f-b780-003b7c016580.JPG)
 
 1. 트랙바를 사용하여 upper & lower BGR 값을 찾기
