@@ -113,9 +113,10 @@ recycling box
 ![dwdwd](https://user-images.githubusercontent.com/88933098/142603105-f06b0f5e-0a40-499f-99ba-159e3b690738.png)
 
 
-# 코드 리뷰 (main)
+# 코드 리뷰 (Opencv)
 
-## matchTemplate
+
+## find pet object : matchTemplate
 
 ![1](https://user-images.githubusercontent.com/88933098/142357606-de9da55c-f217-4e12-8ecc-d00a86a5258c.JPG)
 
@@ -228,9 +229,9 @@ for (auto i : contours) {
 	}
 ~~~
 
-6. 두 상태의 area값 비교
+6. 두 상태의 area값 비교 후 유사 타원형인지 
 
-# 
+
 
 # firmware (센서 및 액츄에이터 제어)
 
