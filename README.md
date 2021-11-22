@@ -12,9 +12,9 @@ recycling box
 
 # 프로젝트 개요
 
-- 전세계적으로 회자되고 있는 환경호보, 이를 위해선 무엇보다 환경보호에 대한 관심이 우선적으로 필요하다고 생각합니다. 따라서 사람들에게 환경보호의 관심을 이끌수도 있고 흥미를 느낄수도 있을 방법을 찾던중, 만약 분리수거를 알아서 해주는 로봇이 어떨까해서 recycling box라는 주제를 선택하게 되었습니다.
+- 전세계적으로 회자되고 있는 환경호보, 이를 위해선 무엇보다 환경보호에 대한 관심이 우선적으로 필요하다고 생각합니다. 따라서 사람들에게 환경보호의 관심을 이끌수도 있고 흥미를 느낄수도 있을 방법을 찾던 중, 만약 분리수거를 알아서 해주는 시스템이 있다면 어떨까해서 recycling box라는 주제를 선택하게 되었습니다.
 
-- 이 recycling box의 주요 기능은 객체 인식을 통하여 분리수거가 가능한지 페트병인지, 캔인지 구분할 수 있는 기능이 있고, 부가적인 기능은 recycling box 가 꽉차있을때 fcm push 메시지를 전송하여 관리자가 확인할수 있도록 구성하였습니다. 
+- 이 recycling box의 주요 기능은 객체 인식을 통하여 분리수거가 가능한 페트병인지,알루미늄 캔인지 구분할 수 있는 기능이 있고, 부가적인 기능은 recycling box 가 꽉차있을때 fcm push 메시지를 전송하여 관리자가 확인할수 있도록 구성하였습니다. 
 
 # 개발 환경
 
@@ -49,9 +49,9 @@ recycling box
 
 - project main func
 
-  - pet object : matchTemplate
+  - find pet object : matchTemplate
 
-  - can object : masking -> findcontour -> minAreaRect & approxPolyDP 
+  - find can object : masking -> findcontour -> minAreaRect & approxPolyDP 
 
   - find label : masking -> morphology ->labeling
 
@@ -59,7 +59,7 @@ recycling box
 
 - project sub func
 
-  - push alarm : android studio and fcn
+  - push alarm : android studio and fcm
 
 - firmware
   
@@ -71,7 +71,7 @@ recycling box
   
   - neo_pixel control
 
-- communitation
+- data communitation
   
   - serial communication cpp system headers
     
@@ -114,9 +114,6 @@ recycling box
 
 
 # 코드 리뷰 (main)
-
-## FLOWCHART (main)
-![dwdwd](https://user-images.githubusercontent.com/88933098/142608504-d6850f80-6236-4a00-b364-a8a284166467.png)
 
 ## matchTemplate
 
@@ -236,6 +233,8 @@ for (auto i : contours) {
 # 
 
 # firmware (센서 및 액츄에이터 제어)
+
+
 
 ![323232](https://user-images.githubusercontent.com/88933098/142371754-4fa7f6f8-f2de-46ef-8aad-51fb72a83868.JPG)
 
