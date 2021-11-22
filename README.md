@@ -236,9 +236,76 @@ for (auto i : contours) {
 
 # firmware (센서 및 액츄에이터 제어)
 
+![frfef](https://user-images.githubusercontent.com/88933098/142840155-66c375f4-d8a6-4a8c-a5ce-00272a8cb7b2.png)
 
+## 반복문 구간
+~~~
+while(1) {
+  if(flag==4){
+    flag = Read_start_ch();
 
-![323232](https://user-images.githubusercontent.com/88933098/142371754-4fa7f6f8-f2de-46ef-8aad-51fb72a83868.JPG)
+  }
+  if(flag==0){
+    flag=check_garbage_full();
+  }
+  
+  if(flag==1){
+    flag = check_obj();
+  }
+  
+  if(flag==2){
+    flag = read_obj_msg();
+	
+  }
+}
+~~~
 
+## 불안정한 초음파 센서 값으로 인한 문제 해결법
+~~~
+// begin시에 각 초음파 센서의 레퍼런스 길이를 전역 변수에 저장하는 함수를 구현 
+void set_ref_dist(int id){
+    int sum = 0;
+    
+    for (int i = 0; i < 100; i++)
+        sum = sum + get_dist(id);
+
+    //100번 측정한값을 레퍼런스 값으로 저장    
+    ref_dist[id] = sum / 100;
+}
+~~~
+
+## 원하는 buzzer의 음계를 간단히 문자열로 구현 하기 위한 코드
+~~~
+const int notes[] = { 262, 294, 330, 349, 392, 440, 494, 680 };
+
+void sound_buzzer(char* song){
+
+	for (int i=0;i<strlen(song);++i){
+		player(song[i],100);
+	}	
+}
+
+void player(char ch, int tm)
+{
+	if(ch >= '1' && ch <= '8')  {
+		tone (buzzer, notes[(ch-'0')-1]);
+		delay(tm);
+	}
+	else if(ch == '0'){
+		delay(tm);
+	}
+	else;
+	
+	noTone(buzzer);
+}
+~~~
+
+## 센서 및 엑츄에이터 테스트 코드
 - 코드는 아래의 링크를 참조 바랍니다.  
 https://github.com/woogyeonghee/firmware
+
+
+
+## 참조한 데이터 시트 
+![323232](https://user-images.githubusercontent.com/88933098/142371754-4fa7f6f8-f2de-46ef-8aad-51fb72a83868.JPG)
+
