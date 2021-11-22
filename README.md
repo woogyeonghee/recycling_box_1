@@ -117,7 +117,7 @@ recycling box
 
 ![frfef](https://user-images.githubusercontent.com/88933098/142838223-159f460b-5c71-40a5-80d5-3b9ea32e0597.png)
 
-## find pet object : matchTemplate
+## 1. find pet object : matchTemplate
 
 ![1](https://user-images.githubusercontent.com/88933098/142357606-de9da55c-f217-4e12-8ecc-d00a86a5258c.JPG)
 
@@ -136,7 +136,7 @@ if(maxvVector[0] > 0.7){
 }
  ~~~
  
- ## find label : masking -> morphology ->labeling
+ ## 2. find label : masking -> morphology ->labeling
 ![2](https://user-images.githubusercontent.com/88933098/142357629-9b73971e-ac28-4ed7-aae2-8cadf01b4fee.JPG)
 
 
@@ -180,7 +180,7 @@ for (j = 1; j < numOfLabels; j++) {
 	}
 }
 ~~~
-## find ellipse : masking -> findcontour -> minAreaRect & approxPolyDP
+## 3. find ellipse : masking -> findcontour -> minAreaRect & approxPolyDP
 ![3](https://user-images.githubusercontent.com/88933098/142357693-31035f8c-ff64-4e6f-b780-003b7c016580.JPG)
 
 1. 트랙바를 사용하여 upper & lower BGR 값을 찾기
